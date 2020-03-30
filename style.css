@@ -1,0 +1,251 @@
+html {
+    /* height: 100%; */
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: black solid 3px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border: blue solid 3px; */
+    border-bottom: 1px solid lightgrey;
+}
+
+
+/* nav{
+    border: black solid 3px;
+} */
+
+.logo{
+    /* border: black solid 3px; */
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    /* border: yellowgreen solid 3px; */
+}
+
+.main2{
+min-height: 300px;
+/* padding: 50px; */
+/* padding-top: -200px; */
+margin-top: -30px;
+}
+
+.cards {
+    /* background-color: rgb(47, 198, 33); */
+    /* min-height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    /* border: yellow solid 3px; */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card1 {
+    /* background-color: rgb(227, 58, 137); */
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;   
+    /* border: black solid 3px; */
+    border-radius: 12px;
+}
+
+.card2 {
+    /* background-color: rgb(228, 124, 173); */
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    /* border: black solid 3px; */
+    border-radius: 12px;
+}
+
+.card3 {
+    /* background-color: rgb(125, 22, 70); */
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    /* border: black solid 3px; */
+    border-radius: 12px;
+}
+
+.card1, .card2, .card3{
+padding: 30px 30px 20   px  30px;
+box-sizing: border-box;
+
+}
+
+
+.herobox1 {
+    flex: 2;
+    /* border: black solid 3px; */
+    padding-right: 50px;
+    padding-left: 10px;
+    /* padding-top: 100px; */
+    /* padding-bottom: 40px; */
+    padding-top: 0px;
+}
+
+.herobox2 {
+    flex: 1;
+    /* border: black solid 3px; */
+}
+
+h1 {
+    
+    /* border: black solid 2px; */
+    /* font-size: 80px; */
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    /* border: black solid 2px; */
+}
+
+h2{
+    /* border: blue solid 2px; */
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+ .cards p{
+    /* border: gold solid 2px; */
+    line-height: 1.2rem;
+    /* margin: 10px 30px  10px 30px; */
+    /* padding: 10px 30px  10px 30px; */
+}
+i {
+    font-size: 100px;
+    padding-top: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton{
+   background-color:white; 
+   color: #FA4083;
+   padding: 11px 25px 11px 25px;
+   /* border-radius: 12px; */
+}
+
+a.mybutton{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.mybutton:hove
+r{
+    background-color: rgb(17, 189, 123);
+    transition-duration: 1s;
+}
+
+.herobox2 img{
+    border-radius: 12px;
+}
+
+nav a.mybutton{
+    margin-left: 10px;
+}
+
+.navbutton{
+    /* border: solid 1px; */
+    padding: 12px 25px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+}
+
+.testimonials{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-bottom: 100px;
+
+}
+
+.tdbox{
+/* justify-content: space-between; */
+width: 47%;
+box-sizing: border-box;
+padding: 50px;
+border: 1px solid white;
+margin-top: 50px;
+}
+
+
+.navbutton{
+    display: inline-block;
+    padding: 11px 15px;
+    text-align: center;
+    width: 100px;
+    position: relative;
+    
+
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -16px;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.navbutton:hover .dropdown{
+    display: block;
+    
+}
+
+.inputwrapper{
+    margin-bottom: 20px;
+}
+
+input[type=text] ,input[type=email], textarea{
+padding: 12px, 20px;
+width: 100%;
+font-size: 1rem;
+box-sizing: border-box;
+}
+
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+
